@@ -22,7 +22,7 @@ Se utilizaron tres datasets principales:
     * `numpy`: Para operaciones numéricas.
     * `matplotlib` / `seaborn`: Para la creación de gráficos acumulados y de dispersión.
     * `scipy.stats`: Para realizar pruebas de significancia estadística (ej. prueba U de Mann-Whitney).
-* **Jupyter Notebook:** Entorno interactivo para el desarrollo del análisis y la presentación de resultados.
+* **Jupyter Notebook - VSCode:** Entorno interactivo para el desarrollo del análisis y la presentación de resultados.
 
 ## Metodología y Análisis
 ### Parte 1: Priorización de Hipótesis
@@ -46,11 +46,6 @@ Se utilizaron tres datasets principales:
     * **Conversión:** Se aplicó la prueba U de Mann-Whitney para comparar la diferencia en la conversión entre los grupos A y B, tanto con datos brutos como con datos filtrados (excluyendo anomalías).
     * **Tamaño Promedio de Pedido:** Se realizó la prueba U de Mann-Whitney para comparar la diferencia en el tamaño promedio de pedido entre los grupos, también con datos brutos y filtrados.
 
-## Resultados Clave y Decisión
-*(Adapta esta sección con tus resultados reales y la decisión final)*
-* El análisis de los gráficos acumulados y las pruebas estadísticas mostraron que [Grupo A/B] superó a [Grupo B/A] en [conversión/ingreso/etc.].
-* La diferencia en [conversión/tamaño de pedido] fue estadísticamente significativa después de filtrar las anomalías, lo que sugiere un impacto real de la hipótesis probada.
-
 * <img width="1376" height="788" alt="image" src="https://github.com/user-attachments/assets/fc682421-0ee4-47fe-b0ec-c7be23028503" />
 
 * <img width="1028" height="548" alt="image" src="https://github.com/user-attachments/assets/254b10df-024d-4224-854e-3b32605b9e70" />
@@ -60,11 +55,3 @@ Se utilizaron tres datasets principales:
 * <img width="1012" height="545" alt="image" src="https://github.com/user-attachments/assets/05df954c-a0cf-4239-9a99-37fab261c731" />
 
 * <img width="1023" height="549" alt="image" src="https://github.com/user-attachments/assets/ef45c5ff-e2a9-4b59-b8ef-35f55fca20c5" />
-
-* 
-
-
-
-
-
-* **Decisión:** Basado en los resultados, se decidió [Parar la prueba, considerar a uno de los grupos como líder / Parar la prueba, concluir que no hay diferencia / Continuar la prueba]. Se fundamentó esta decisión en las métricas clave como [mencionar métricas: p-value de conversión, mejora en ROMI, etc.].
